@@ -13,7 +13,7 @@ MPU6050 mpu;
 
 void setup() 
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
 
   // Initialize MPU6050
   Serial.println("Initialize MPU6050");
